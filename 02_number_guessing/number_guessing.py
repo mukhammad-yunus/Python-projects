@@ -19,3 +19,9 @@ while True:
   elif user_guess == random_num:
     print(f"You guessed it! The number is indeed {random_num}. You found the number in {attempts} {"attempt" if attempts ==1 else "attempts"}.")
     break
+
+
+#   WHAT I LEARNED?
+# randint takes two arguments: max and min of a range, including both.
+# try and except. when there is a possibility of an error, this is useful. Also inside of try when an error happens, element/logic below that error get not executed,
+# ternary conditional expression. it is too handy. the syntax is "value_if_true if condition else value_if_false"
